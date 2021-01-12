@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:boringssl-ios.xcodeproj">
+      location = "self:/Users/mafeng/LTaoWorkspace/BoringSSL2/boringssl-ios/BoringSSL.xcodeproj">
    </FileRef>
 </Workspace>

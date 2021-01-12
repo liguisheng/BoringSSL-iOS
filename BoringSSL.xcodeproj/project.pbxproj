@@ -571,7 +571,7 @@
 		3B4677FF243BC9AE00BCA0E0 /* hrss.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hrss.c; sourceTree = "<group>"; };
 		3B467805243BCA3100BCA0E0 /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
 		3B467806243BCA3100BCA0E0 /* socket_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket_helper.c; sourceTree = "<group>"; };
-		3BE69443243A5686000F7240 /* boringssl_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = boringssl_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE69443243A5686000F7240 /* BoringSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoringSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE69446243A5686000F7240 /* boringssl_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = boringssl_ios.h; sourceTree = "<group>"; };
 		3BE69447243A5686000F7240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BE69450243A585B000F7240 /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
@@ -1081,7 +1081,7 @@
 		3BE69444243A5686000F7240 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BE69443243A5686000F7240 /* boringssl_ios.framework */,
+				3BE69443243A5686000F7240 /* BoringSSL.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1089,13 +1089,13 @@
 		3BE69445243A5686000F7240 /* boringssl-ios */ = {
 			isa = PBXGroup;
 			children = (
-				3B4676F5243BC8FB00BCA0E0 /* ssl */,
+				3BE69447243A5686000F7240 /* Info.plist */,
+				3BE69446243A5686000F7240 /* boringssl_ios.h */,
 				3B467524243B97B900BCA0E0 /* err_data.c */,
-				3BE69673243A65EA000F7240 /* third_party */,
+				3B4676F5243BC8FB00BCA0E0 /* ssl */,
 				3BE694E8243A5AC8000F7240 /* crypto */,
 				3BE6944E243A585B000F7240 /* include */,
-				3BE69446243A5686000F7240 /* boringssl_ios.h */,
-				3BE69447243A5686000F7240 /* Info.plist */,
+				3BE69673243A65EA000F7240 /* third_party */,
 			);
 			path = "boringssl-ios";
 			sourceTree = "<group>";
@@ -1638,9 +1638,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3BE69442243A5686000F7240 /* boringssl-ios */ = {
+		3BE69442243A5686000F7240 /* BoringSSL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BE6944B243A5686000F7240 /* Build configuration list for PBXNativeTarget "boringssl-ios" */;
+			buildConfigurationList = 3BE6944B243A5686000F7240 /* Build configuration list for PBXNativeTarget "BoringSSL" */;
 			buildPhases = (
 				3BE6943E243A5686000F7240 /* Headers */,
 				3BE6943F243A5686000F7240 /* Sources */,
@@ -1651,9 +1651,9 @@
 			);
 			dependencies = (
 			);
-			name = "boringssl-ios";
+			name = BoringSSL;
 			productName = "boringssl-ios";
-			productReference = 3BE69443243A5686000F7240 /* boringssl_ios.framework */;
+			productReference = 3BE69443243A5686000F7240 /* BoringSSL.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1670,7 +1670,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3BE6943D243A5686000F7240 /* Build configuration list for PBXProject "boringssl-ios" */;
+			buildConfigurationList = 3BE6943D243A5686000F7240 /* Build configuration list for PBXProject "BoringSSL" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1683,7 +1683,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BE69442243A5686000F7240 /* boringssl-ios */,
+				3BE69442243A5686000F7240 /* BoringSSL */,
 			);
 		};
 /* End PBXProject section */
@@ -2099,7 +2099,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1002;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8TF9JJP47U;
+				DEVELOPMENT_TEAM = 9GE3M3Y7XZ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -2129,7 +2129,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1002;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8TF9JJP47U;
+				DEVELOPMENT_TEAM = 9GE3M3Y7XZ;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -2156,7 +2156,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BE6943D243A5686000F7240 /* Build configuration list for PBXProject "boringssl-ios" */ = {
+		3BE6943D243A5686000F7240 /* Build configuration list for PBXProject "BoringSSL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BE69449243A5686000F7240 /* Debug */,
@@ -2165,7 +2165,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BE6944B243A5686000F7240 /* Build configuration list for PBXNativeTarget "boringssl-ios" */ = {
+		3BE6944B243A5686000F7240 /* Build configuration list for PBXNativeTarget "BoringSSL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3BE6944C243A5686000F7240 /* Debug */,

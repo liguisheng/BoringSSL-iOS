@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3BE69442243A5686000F7240"
-               BuildableName = "boringssl_ios.framework"
-               BlueprintName = "boringssl-ios"
-               ReferencedContainer = "container:boringssl-ios.xcodeproj">
+               BuildableName = "BoringSSL.framework"
+               BlueprintName = "BoringSSL"
+               ReferencedContainer = "container:BoringSSL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3BE69442243A5686000F7240"
-            BuildableName = "boringssl_ios.framework"
-            BlueprintName = "boringssl-ios"
-            ReferencedContainer = "container:boringssl-ios.xcodeproj">
+            BuildableName = "BoringSSL.framework"
+            BlueprintName = "BoringSSL"
+            ReferencedContainer = "container:BoringSSL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
