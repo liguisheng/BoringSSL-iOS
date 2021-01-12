@@ -1648,7 +1648,7 @@
 			dependencies = (
 			);
 			name = BoringSSL;
-			productName = "boringssl-ios";
+			productName = "BoringSSL";
 			productReference = 3BE69443243A5686000F7240 /* BoringSSL.framework */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -2099,8 +2099,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/boringssl-ios/include";
-				INFOPLIST_FILE = "boringssl-ios/Info.plist";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/BoringSSL/include";
+				INFOPLIST_FILE = "BoringSSL/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2109,7 +2109,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.01;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mcmcx.boringssl-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mcmcx.BoringSSL";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers/include";
 				SKIP_INSTALL = YES;
@@ -2129,8 +2129,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/boringssl-ios/include";
-				INFOPLIST_FILE = "boringssl-ios/Info.plist";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/BoringSSL/include";
+				INFOPLIST_FILE = "BoringSSL/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2139,7 +2139,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.01;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mcmcx.boringssl-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mcmcx.BoringSSL";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers/include";
 				SKIP_INSTALL = YES;
